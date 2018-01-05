@@ -41,18 +41,18 @@ body {
     animation: hiddenToVisible .75s;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
     animation: hiddenToVisible 1.5s;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 42%;
     left: 50%;
@@ -67,7 +67,7 @@ body {
     margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -75,7 +75,7 @@ body {
     animation: moveInLeft 1.5s ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -173,7 +173,7 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
@@ -191,7 +191,7 @@ body {
     transition: all .5s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
     color: #777;
 }
@@ -201,7 +201,7 @@ body {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom 5s ease-out;
     /*animation-fill-mode: back;*/
 }
