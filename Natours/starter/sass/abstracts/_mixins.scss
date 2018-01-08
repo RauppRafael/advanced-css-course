@@ -5,12 +5,3 @@
     clear: both;
   }
 }
-
-@mixin col-width($size, $of) {
-  $single-col-width: calc(
-          (#{$size} * (100% - #{$gutter-horizontal * ($of - 1)}) / #{$of})
-          +
-          ((#{$size} - 1) * #{$gutter-horizontal})
-  );
-  width: $single-col-width;
-}
