@@ -63,6 +63,19 @@
 <script>
 </script>
 
-<style>
+<style lang="scss" scoped>
+  @import '../../../assets/sass/abstracts/variables';
+  @import '../../../assets/sass/abstracts/mixins';
+
+  .section-features {
+    padding: 20rem 0;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+    @include background-img-gradient('/src/assets/img/nat-4.jpg');
+
+    & > * {
+      transform: skewY(7deg);
+    }
+  }
 </style>
 

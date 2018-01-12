@@ -106,9 +106,14 @@
   </section>
 </template>
 
-<script>
-</script>
+<style lang="scss" scoped>
+  @import '../../../assets/sass/abstracts/variables';
 
-<style>
+  .section-tours {
+    background-color: $color-grey--light--1;
+    padding: 25rem 0;
+    margin-top: -10rem;
+    padding-bottom: 50rem;
+  }
 </style>
 
