@@ -28,9 +28,9 @@
       </div>
       <div class="col-1-of-2">
         <div class="composition">
-          <img src="img/nat-1.jpg" alt="Photo 1" class="composition__photo composition__photo--1">
-          <img src="img/nat-2.jpg" alt="Photo 2" class="composition__photo composition__photo--2">
-          <img src="img/nat-3.jpg" alt="Photo 3" class="composition__photo composition__photo--3">
+          <img src="/src/assets/img/nat-1.jpg" alt="Photo 1" class="composition__photo composition__photo--1">
+          <img src="/src/assets/img/nat-2.jpg" alt="Photo 2" class="composition__photo composition__photo--2">
+          <img src="/src/assets/img/nat-3.jpg" alt="Photo 3" class="composition__photo composition__photo--3">
         </div>
       </div>
     </div>

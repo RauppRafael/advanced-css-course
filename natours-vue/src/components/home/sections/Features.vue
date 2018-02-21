@@ -64,8 +64,7 @@
 </script>
 
 <style lang="scss" scoped>
-  @import '../../../assets/sass/abstracts/variables';
-  @import '../../../assets/sass/abstracts/mixins';
+  @import "~sassResources";
 
   .section-features {
     padding: 20rem 0;
